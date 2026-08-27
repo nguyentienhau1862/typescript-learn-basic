@@ -1,0 +1,13 @@
+{
+	"name": "typescript-learn-basic",
+	"version": "1.0.0",
+	"scripts": {
+		"dev-build": "tsc --watch",
+		"dev-start": "node --watch build/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@types/node": "^26.0.0",
+		"typescript": "^6.0.0"
+	}
+}
